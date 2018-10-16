@@ -2,6 +2,8 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  background: black;
+  background-size:cover;
 }
 
 main{
@@ -10,28 +12,47 @@ main{
 }
 
 .square{
-  background-size:cover;
-  height:33vw;
+  align-items: flex-end;
 }
 
-.square .moon{
+.moon{
   background:url(img/moon.png);
 }
 
-.square .mercury{
+.mercury{
   background:url(img/neptune.png);
 }
 
-.square .venus{
+.venus{
   background:url(img/uranus.png);
 }
 
+.trips .square{
+  background-size:200%;
+  background-position: center;
+  height:33vw;
+  flex-direction: column;
+}
+
 div.right{
+  align-self: flex-end;
   text-align:right;
 }
 
+div.left{
+  align-self: flex-end;
+}
+
 h3, h4{
+  display:inline-block;
+  width:100%;
   text-transform:uppercase;
+}
+
+h2{
+  color:white;
+  font-size: 2em;
+  text-align:center;
 }
 
 .square h3{
@@ -47,5 +68,10 @@ h3, h4{
 .text{
   padding:3px 5px 0 ;
   background:rgba(105,105,105,0.5);
+}
+
+.amentities .column{
+  text-align:center;
+  color:white;
 }
 
