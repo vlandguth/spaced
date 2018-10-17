@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SPACED</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
               <a class="navbar-item" href="index.html">SPACED
               </a>
@@ -25,7 +27,71 @@
     </header>
 
     <main>
-        
+
+            <section class="planets">
+            <div class="planets-wrap">
+                <div class="planet-carousel" id="brandCarousel">
+                <div class="gallery-cell"><img src="img/jupiter.png"></div>
+                <div class="gallery-cell"><img src="img/mars.png" ></div>
+                <div class="gallery-cell"><img src="img/mercury.png"></div>
+                <div class="gallery-cell"><img src="img/moon.png"></div>
+                <div class="gallery-cell"><img src="img/neptune.png"></div>
+                <div class="gallery-cell"><img src="img/uranus.png"></div>
+                </div>
+             </div>
+            </section>
+
+            <section class="form columns">
+                    <div class="control column">
+                      <label class="label">To</label>
+                      <div class="select">
+                        <select>
+                        <option>Where to?</option>
+                        <option>Earth's Moon</option>
+                      </select>
+                      </div>
+                    </div>
+                    <div class="control column">
+                      <label class="label">Duration</label>
+                      <div class="select">
+                        <select>
+                        <option>How Long?</option>
+                        <option>1 week</option>
+                        <option>2 weeks</option>
+                      </select>
+                      </div>
+                    </div>
+                    <div class="control column">
+                        <label class="label">Adults</label>
+                        <div class="select">
+                  
+                          <select>
+                        <option>Number of Adults</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                        </div>
+                      </div>
+                    <div class="control column">
+                        <label class="label">Children (12 and under)</label>
+                        <div class="select">
+                          <select>
+                        <option>Number of Children</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                        </div>
+                      </div>
+                    <div class="column control next">
+                        <button class="button is-primary">Submit</button>
+                    </div>
+                  </section>
+
+
+    <figure class="level-item">
+    <img class="star" src="img/star.png" alt="star">
+    </figure>
+    <h2>Travel Packages</h2>   
     <section class="columns trips">
         <div class="column square moon">
         <div class="columns text">
@@ -35,74 +101,152 @@
             </div>
             <div class="column right">
             <h4>5 Nights</h4>
-            <h3>$700</h3>
+            <h3>$7000</h3>
             </div>
         </div>
         </div>
         <div class="column square venus">
         <div class="columns text">
             <div class="column left">
-            <h4>Earth's Moon</h4>
-            <h3>Sea of Tranquility</h3>
+            <h4>Venus</h4>
+            <h3>Great Lakes</h3>
             </div>
             <div class="column right">
-            <h4>5 Nights</h4>
-            <h3>$700</h3>
+            <h4>3 Nights</h4>
+            <h3>$5000</h3>
             </div>
         </div>
         </div>
         <div class="column square mercury">
         <div class="columns text">
             <div class="column left">
-            <h4>Earth's Moon</h4>
-            <h3>Sea of Tranquility</h3>
+            <h4>Mercury</h4>
+            <h3>Eagle Crater</h3>
             </div>
             <div class="column right">
             <h4>5 Nights</h4>
-            <h3>$700</h3>
+            <h3>$6500</h3>
             </div>
         </div>
         </div>
     </section>
 
-    <section class="columns amentities">
-        <div class="column">
-          <img class="line-icon rocket" src="" alt="">
-          <h4>Fast Travel</h4>
-          <p>Revolutionary technology allows SPACEDships to travel anywhere in the universe in 24 hours or less. Our travel arrangements keep our passengers entertained and comfortable. </p>
-        </div>
-        <div class="column">
-          <img class="line-icon rocket" src="" alt="">
-          <h4>Safety Tested</h4>
-          <p>The safety of our customers is our number one priority. The SPACEDships have been through rigorous safety testing. Our cabins are designed for passenger comfort and safety.</p>
-        </div>
-        
-        <div class="column">
-          <img class="line-icon rocket" src="" alt="">
-          <h4>Accessible</h4>
-          <p>Travelers are not required to have a Visa to join a SPACED Voyage. No stacks of paperwork to fill out to join. All currencies are accepted as well.</p>
-        </div>
-        
-      </section>
+    <figure class="level-item">
+            <img class="star" src="img/star.png" alt="star">
+    </figure>
+    <h2>Amentities</h2>
 
-      <section class="email">
-        <h2>Stay in Touch</h2>
-        <h3>Sign up to receive special offers, SPACED updates, and more</h3>
-        <div class="field columns">
-        <div class="control column">
-          <input class="input" type="text" placeholder="space.traveler@SPACED.com">
-          </div>
-          <div class="column control">
-        <button class="button is-primary">Submit</button>
-      </div>
-      </div>
-        
-      </section>
-    
+    <section class="columns amentities">
+            <div class="column">
+              
+          <svg class="line-icon" width="74px" height="55px" viewBox="0 0 74 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Desktop-HD-Copy" transform="translate(-270.000000, -1926.000000)" fill="#399C85" fill-rule="nonzero">
+                      <g id="noun_705451_cc-copy" transform="translate(307.000000, 1953.000000) rotate(60.000000) translate(-307.000000, -1953.000000) translate(283.000000, 1910.000000)">
+                          <path d="M23.9976,40.4295556 C29.5704,40.4295556 34.1028,35.9169444 34.1028,30.3711389 C34.1028,24.8253333 29.5692,20.3127222 23.9976,20.3127222 C18.426,20.3127222 13.8924,24.8253333 13.8924,30.3711389 C13.8924,35.9169444 18.4248,40.4295556 23.9976,40.4295556 Z M23.9976,23.8948611 C27.5844,23.8948611 30.5028,26.79975 30.5028,30.3699444 C30.5028,33.9401389 27.5844,36.8450278 23.9976,36.8450278 C20.4108,36.8450278 17.4924,33.9401389 17.4924,30.3699444 C17.4924,26.79975 20.4096,23.8948611 23.9976,23.8948611 Z" id="Shape"></path>
+                          <path d="M44.0256,33.1924167 C43.1664,32.71225 42.1248,32.5521944 40.9236,32.6919444 C41.1924,29.3522778 41.1384,25.8621111 40.4904,22.5379722 C37.386,6.61722222 25.2468,1.0535 24.7308,0.824166667 C24.2628,0.616333333 23.73,0.616333333 23.262,0.824166667 C22.7484,1.0535 10.608,6.61722222 7.5036,22.5391667 C6.8556,25.8621111 6.8028,29.3510833 7.0704,32.6919444 C5.8704,32.5533889 4.8312,32.7146389 3.9732,33.1936111 C3.186,33.6331667 2.1816,34.5505 1.8624,36.4281667 C1.0356,41.2919444 0.1824,55.0328333 0.1464,55.6157222 C0.1008,56.3503056 0.5112,57.0371111 1.1808,57.3488611 C1.4244,57.4623333 1.6836,57.5172778 1.9416,57.5172778 C2.3928,57.5172778 2.838,57.3488611 3.18,57.0263611 L10.9272,49.7247222 C11.0172,49.9636111 11.0784,50.1212778 11.0988,50.1726389 C11.2836,50.6360833 11.6544,51.0027778 12.1212,51.1831389 C12.1668,51.2010556 12.5196,51.33125 13.1592,51.5092222 L13.1592,54.9157778 C13.1592,55.2060278 13.23,55.4926944 13.3656,55.7495 C13.6152,56.2225 14.124,56.7289444 15.0816,57.1744722 L16.2648,74.1738056 C16.308,74.7937222 16.6704,75.34675 17.2236,75.637 C17.7756,75.9248611 18.4392,75.9093333 18.9768,75.5928056 L19.4808,75.2953889 L22.2828,84.0841111 C22.5204,84.8294444 23.2152,85.3335 23.9976,85.3335 C24.012,85.3335 24.0264,85.3335 24.0408,85.3335 C24.8412,85.3143889 25.5324,84.7733056 25.7376,84.0040833 L29.9196,68.3771667 L30.42,68.5396111 C30.9612,68.714 31.5576,68.6244167 32.0244,68.2935556 C32.49,67.9626944 32.7696,67.4311667 32.778,66.8626111 L32.9232,57.1720833 C33.8736,56.72775 34.3776,56.2225 34.626,55.7518889 C34.7616,55.4950833 34.8324,55.2084167 34.8324,54.9181667 L34.8324,51.5116111 C35.472,51.3348333 35.8248,51.2034444 35.8704,51.1855278 C36.3372,51.0051667 36.708,50.6384722 36.8928,50.1750278 C36.9132,50.1224722 36.9756,49.9636111 37.0668,49.7223333 L44.8188,57.02875 C45.1608,57.35125 45.606,57.5196667 46.0572,57.5196667 C46.3152,57.5196667 46.5744,57.4647222 46.818,57.35125 C47.4876,57.0395 47.898,56.3526944 47.8524,55.6181111 C47.8164,55.0352222 46.9632,41.2943333 46.1364,36.4305556 C45.8184,34.5493056 44.8128,33.6307778 44.0256,33.1924167 Z M11.0376,23.2211944 C13.386,11.1740278 21.4728,5.86113889 23.9904,4.47438889 C26.4792,5.86711111 34.6224,11.25525 36.9552,23.2211944 C38.8608,32.9977222 34.9656,44.9218611 33.8388,48.0644444 C32.4672,48.4383056 29.1852,49.1478056 23.9964,49.1478056 C18.8016,49.1478056 15.5184,48.4371111 14.1528,48.0644444 C13.026,44.9266389 9.1284,33.0180278 11.0376,23.2211944 Z M4.0476,51.2739167 C4.3728,46.7230833 4.908,39.9959722 5.4132,37.0253889 C5.4504,36.808 5.5404,36.4269722 5.736,36.3182778 C5.9784,36.1809167 6.5676,36.1570278 7.5024,36.4186111 C8.0616,40.1500556 8.928,43.5076389 9.672,45.9729722 L4.0476,51.2739167 Z M29.2152,64.3757778 C28.7484,64.2276667 28.242,64.2766389 27.8124,64.5095556 C27.378,64.7436667 27.06,65.1473889 26.9328,65.6227778 L23.85,77.1443889 L22.23,72.0632222 C22.0644,71.5424444 21.6684,71.1255833 21.156,70.9308889 C20.6652,70.7445556 20.1168,70.7815833 19.656,71.0300278 L18.7584,58.1324167 C20.148,58.3259167 21.8592,58.4441667 23.9976,58.4441667 C26.1732,58.4441667 27.9084,58.3211389 29.3088,58.1216667 L29.2152,64.3757778 Z M31.2336,53.9876944 C30.4536,54.309 28.464,54.8596389 23.9964,54.8596389 C19.5276,54.8596389 17.5392,54.309 16.7592,53.9876944 L16.7592,52.2414167 C18.6144,52.51375 21.0216,52.7311389 23.9964,52.7311389 C26.9712,52.7311389 29.3784,52.51375 31.2336,52.2414167 L31.2336,53.9876944 Z M38.3244,45.9681944 C39.0684,43.5040556 39.9336,40.1500556 40.4928,36.421 C41.43,36.1582222 42.0228,36.1821111 42.2664,36.3182778 C42.4608,36.4257778 42.552,36.808 42.5892,37.0253889 C43.0944,39.9947778 43.6284,46.7230833 43.9536,51.2739167 L38.3244,45.9681944 Z" id="Shape"></path>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+              <h3>Fast Travel</h3>
+              <p>Revolutionary technology allows SPACEDships to travel anywhere in the universe in 24 hours or less. Our travel arrangements keep our passengers entertained and comfortable. </p>
+            </div>
+            <div class="column">
+              
+          <svg class="line-icon" width="119px" height="36px" viewBox="0 0 119 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Desktop-HD-Copy" transform="translate(-657.000000, -1942.000000)" fill="#399C85" fill-rule="nonzero">
+                      <g id="noun_1322397_cc-copy" transform="translate(716.646447, 1960.853553) rotate(45.000000) translate(-716.646447, -1960.853553) translate(668.646447, 1912.853553)">
+                          <path d="M82.1196538,0.0814110784 C81.6343093,0.133776449 81.1808899,0.348112118 80.8328303,0.68970481 L65.0184475,16.4715477 L61.1241134,12.5852267 C60.6588905,12.1281649 60.012013,11.9047065 59.3631971,11.9769329 C58.8778527,12.0292983 58.4244333,12.243634 58.0763737,12.5852267 L49.4072474,21.2365153 C48.9169598,21.7098722 48.6785889,22.3859535 48.7638356,23.0613965 L49.7120213,30.6650681 L42.9054026,37.4576815 C42.4939093,37.8639727 42.2623644,38.4176424 42.2623644,38.9953129 C42.2623644,39.5729833 42.4939093,40.126653 42.9054026,40.5329442 L54.8254513,52.4284661 C55.6698638,53.2615654 57.0287786,53.2615654 57.873191,52.4284661 L64.7136735,45.6020587 L72.3330229,46.5482934 C72.9931264,46.6311585 73.6547979,46.4069022 74.1278029,45.9399996 L82.7969293,37.288711 C83.2084225,36.8824198 83.4399675,36.3287501 83.4399675,35.7510796 C83.4399675,35.1734092 83.2084225,34.6197395 82.7969293,34.2134482 L68.0661872,19.5468105 L82.3567002,5.28570189 L90.1453684,13.058344 L81.9164711,21.2365153 C81.3480149,21.776024 81.116043,22.5799527 81.3099388,23.3385321 C81.5038345,24.0971115 82.0933321,24.6919326 82.8512868,24.8937995 C83.6092414,25.0956663 84.4173417,24.8730688 84.9642108,24.3117781 L94.716978,14.5790783 C95.1284712,14.1727871 95.3600162,13.6191174 95.3600162,13.041447 C95.3600162,12.4637765 95.1284712,11.9101068 94.716978,11.5038156 L83.8805701,0.68970481 C83.4153471,0.232643003 82.7684696,0.00918459865 82.1196538,0.0814110784 Z M59.6002436,17.1812238 L78.2253197,35.7679767 L71.8250662,42.1212668 L64.2057169,41.1750321 C63.5456133,41.092167 62.8839419,41.3164232 62.4109369,41.7833258 L56.3493212,47.832469 L47.4770122,39.0122099 L53.5386279,32.9630667 C54.0188385,32.4972832 54.2563404,31.8361411 54.1820396,31.1719796 L53.2338539,23.5345138 L59.6002436,17.1812238 Z M30.1048958,43.3378542 C29.6195513,43.3902196 29.1661319,43.6045553 28.8180723,43.9461479 L13.6471012,59.085903 C13.235608,59.4921943 13.0040631,60.045864 13.0040631,60.6235344 C13.0040631,61.2012049 13.235608,61.7548746 13.6471012,62.1611658 L16.4577945,64.9660758 L0.64341172,80.7141246 C0.231918456,81.1204158 0.000373515215,81.6740855 0.000373515215,82.251756 C0.000373515215,82.8294265 0.231918456,83.3830961 0.64341172,83.7893874 L11.4798196,94.6034982 C12.3242321,95.4365975 13.6831469,95.4365975 14.5275594,94.6034982 L30.3419422,78.8216552 L33.1526355,81.6265652 C33.997048,82.4596645 35.3559627,82.4596645 36.2003752,81.6265652 L51.3713463,66.4868101 C51.7828395,66.0805189 52.0143845,65.5268492 52.0143845,64.9491787 C52.0143845,64.3715083 51.7828395,63.8178386 51.3713463,63.4115474 L31.865812,43.9461479 C31.4005891,43.4890862 30.7537116,43.2656278 30.1048958,43.3378542 Z M30.3419422,48.542145 L46.7997367,64.9660758 L34.6765053,77.0305681 L18.2187108,60.6404315 L30.3419422,48.542145 Z M19.5055343,68.0075444 L27.2942024,75.7801866 L13.0036895,90.0075011 L5.24888509,82.268653 L19.5055343,68.0075444 Z" id="Shape"></path>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+              <h3>Safety Tested</h3>
+              <p>The safety of our customers is our number one priority. The SPACEDships have been through rigorous safety testing. Our cabins are designed for passenger comfort and safety.</p>
+            </div>
+            
+            <div class="column">
+              
+          <svg class="line-icon" width="59px" height="41px" viewBox="0 0 59 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Desktop-HD-Copy" transform="translate(-1103.000000, -1949.000000)" fill="#399C85" fill-rule="nonzero">
+                      <g id="noun_1433213_cc-copy" transform="translate(1103.000000, 1949.000000)">
+                          <path d="M54.1028055,0 L4.89719449,0 C2.19744113,0 0,2.20698404 0,4.92002811 L0,36.0799719 C0,38.793016 2.19744113,41 4.89719449,41 L54.1028055,41 C56.8025589,41 59,38.793016 59,36.0799719 L59,4.92002811 C59,2.2076869 56.8025589,0 54.1028055,0 Z M56.2016031,36.0806747 C56.2016031,37.2432071 55.2599426,38.1892582 54.1028055,38.1892582 L4.89719449,38.1892582 C3.74005739,38.1892582 2.79839685,37.2432071 2.79839685,36.0806747 L2.79839685,16.2831845 L56.2016031,16.2831845 L56.2016031,36.0806747 Z M56.2016031,13.4717398 L2.79839685,13.4717398 L2.79839685,4.92002811 C2.79839685,3.75749576 3.74005739,2.81144464 4.89719449,2.81144464 L54.1028055,2.81144464 C55.2599426,2.81144464 56.2016031,3.75749576 56.2016031,4.92002811 L56.2016031,13.4717398 Z M10.4359215,28.7589701 L16.9072142,28.7589701 C17.6795717,28.7589701 18.3064126,28.1292065 18.3064126,27.3532477 C18.3064126,26.577289 17.6795717,25.9475254 16.9072142,25.9475254 L10.4359215,25.9475254 C9.66356392,25.9475254 9.03672303,26.577289 9.03672303,27.3532477 C9.03672303,28.1292065 9.66356392,28.7589701 10.4359215,28.7589701 Z M24.6028055,28.7589701 L31.0740982,28.7589701 C31.8464558,28.7589701 32.4732967,28.1292065 32.4732967,27.3532477 C32.4732967,26.577289 31.8464558,25.9475254 31.0740982,25.9475254 L24.6028055,25.9475254 C23.830448,25.9475254 23.2036071,26.577289 23.2036071,27.3532477 C23.2036071,28.1292065 23.830448,28.7589701 24.6028055,28.7589701 Z" id="Shape"></path>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+              <h3>Accessible</h3>
+              <p>Travelers are not required to have a Visa to join a SPACED Voyage. No stacks of paperwork to fill out to join. All currencies are accepted as well.</p>
+            </div>
+            
+          </section>
+          
+          <section class="email">
+            <figure class="level-item">
+            <img class="star" src="img/star.png" alt="star">
+            </figure>
+            <h2>Stay in Touch</h2>
+            <h3>Sign up to receive special offers, SPACED updates, and more</h3>
+            <div class="field is-grouped">
+                <p class="control is-expanded">
+                  <input class="input" type="text" placeholder="space.traveler@SPACED.com">
+                </p>
+                <p class="control">
+                  <a class="button is-primary">
+                    Submit
+                  </a>
+                </p>
+              </div>
+              </section>
     </main>
 
     <footer>
+        <section class="columns">
+            <div class="column">
+                <ul>
+                    <li><a href="">Sitemap</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Booking</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Social</li>
+                    <li>
+                        <a href=""><img src="" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Contact</li>
+                    <li><p>
+                        JFK International
+                    </p>
+                    <p>SPACED Headquarters</p>
+                    <p>Queens, NY 11430</p>
+                    <p>support@SPACED.com</p>
+                    </li>
+                </ul>
 
+            </div>
+        </section>
     </footer>
+    <div class="green"></div>
+    <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
