@@ -144,7 +144,7 @@ h3{
 footer{
   color:white;
   margin-top:100px;
-  padding:20px 30%;
+  padding:20px 20%;
   background: #353635;
 }
 
@@ -182,7 +182,7 @@ footer a{
   }
 }
 .gallery-cell.is-selected img {
-  transform: scale(1.0);
+  transform: scale(0.9);
   filter: grayscale(0) blur(0);
 }
 .gallery-cell img {
