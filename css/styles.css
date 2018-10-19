@@ -16,6 +16,15 @@ main{
     max-width:1600px;
 }
 
+h1{
+  font-size: 3em;
+  text-transform:uppercase;
+  text-align: center;
+  font-style: italic;
+  color:white;
+}
+
+
 .container{
   position:relative;
 }
@@ -236,4 +245,18 @@ footer a:hover{
 
 footer ul li:first-child{
   text-transform:uppercase;
+}
+
+.social-box{
+  position: relative;
+}
+
+.social-box h3{
+  text-transform: none;
+  font-size: 1em;
+  color:white;
+  padding:20px;
+  position: absolute;
+  left:0;
+  bottom:-10px;
 }
