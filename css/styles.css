@@ -6,6 +6,12 @@ html, body{
   background-size:cover;
 }
 
+body{
+  background-image: url(../img/stars-4.png);
+  background-size: 50%;
+  background-repeat:repeat;
+}
+
 select, button{
   font-family: 'Montserrat', sans-serif;
 }
@@ -15,6 +21,15 @@ main{
     padding-top:100px;
     max-width:1600px;
 }
+
+.columns{
+  margin-top:0;
+}
+
+main > section, main > .columns{
+  margin-top:75px;
+}
+
 
 h1{
   font-size: 3em;
@@ -78,7 +93,6 @@ h3, h4{
 
 h2{
   text-transform:uppercase;
-  margin-bottom:75px;
   color:white;
   font-size: 2em;
   text-align:center;
