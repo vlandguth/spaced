@@ -12,6 +12,11 @@ body{
   background-repeat:repeat;
 }
 
+.select select{
+  max-width:none;
+  width:19vw;
+}
+
 select, button{
   font-family: 'Montserrat', sans-serif;
 }
@@ -132,14 +137,25 @@ h3{
 }
 
 .form{
+  font-size: 1.5em;
   margin:0 auto;
   display:inline-block;
-  background: #4B4A49;
+  background: rgba(75,74,73,0.6);
   padding:25px;
 }
 
 .form label{
+  font-size: 1.2rem;
   color:white;
+}
+
+.control, button{
+  font-size:1.2rem;
+}
+
+.form button{
+  width:10vw;
+  font-size: 1em;
 }
 
 .select:not(.is-multiple):not(.is-loading)::after {
@@ -148,6 +164,11 @@ h3{
 
 .next{
   align-self: flex-end;
+}
+
+@media screen and (min-width: 1000px), print
+.columns:not(.is-desktop) {
+    display: flex;
 }
 
 .email h3 , .social-caption{
