@@ -37,7 +37,7 @@ main > section, main > .columns{
 
 
 h1{
-  font-size: 3em;
+  font-size: 3.25em;
   text-transform:uppercase;
   text-align: center;
   font-style: italic;
@@ -99,22 +99,22 @@ h3, h4{
 h2{
   text-transform:uppercase;
   color:white;
-  font-size: 2em;
+  font-size: 2.5em;
   text-align:center;
 }
 
 h3{
-  font-size: 1.25em;
+  font-size: 1.5em;
   margin-bottom: 25px;
 }
 
 .square h3{
-  font-size: .85em;
+  font-size: 1.15em;
   font-weight:bold;
 }
 
 .square h4{
-  font-size: .75em;
+  font-size: 1em;
   font-style:italic;
 }
 
@@ -132,7 +132,14 @@ h3{
   padding:0 15px;
 }
 
+.amentities p{
+  font-size: 1.25em;
+  margin:0 auto;
+  max-width: 400px;
+}
+
 .line-icon{
+  transform: scale(1.4);
   margin:10% 0;
 }
 
