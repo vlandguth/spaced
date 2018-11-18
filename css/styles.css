@@ -13,18 +13,22 @@ body{
 }
 
 .select select{
-  max-width:none;
-  width:19vw;
-}
-
-select, button{
   font-family: 'Montserrat', sans-serif;
+  max-width:none;
+  width:300px;
 }
 
 main{
     margin:0 auto;
     padding-top:100px;
     max-width:1600px;
+}
+
+.center-wrap{
+  margin-top:100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .columns{
@@ -77,9 +81,9 @@ h1{
 .trips .square{
   background-size:200%;
   background-position: center;
-  height:33vw;
-  flex-direction: column;
+  height:375px;
 }
+
 
 div.right{
   align-self: flex-end;
@@ -119,6 +123,7 @@ h3{
 }
 
 .text{
+  display:flex;
   padding:3px 5px 0 ;
   background:rgba(70, 70, 70, 0.65);
   position:absolute;
@@ -161,8 +166,8 @@ h3{
 }
 
 .form button{
-  width:10vw;
-  font-size: 1em;
+  font-size: 1.1em;
+  width:300px;
 }
 
 .select:not(.is-multiple):not(.is-loading)::after {
@@ -173,9 +178,9 @@ h3{
   align-self: flex-end;
 }
 
-@media screen and (min-width: 1000px), print
-.columns:not(.is-desktop) {
-    display: flex;
+.six{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
 }
 
 .email h3 , .social-caption{
@@ -188,6 +193,10 @@ h3{
 .email .field{
   margin:0 auto;
   max-width:700px;
+}
+
+.email input{    
+  font-size: 16px;
 }
 
 .star{
@@ -244,11 +253,7 @@ footer svg{
   transform: translateY(-50%);
 }
 
-@media (min-width: 548px) {
-  .gallery-cell {
-    width: 50%;
-  }
-}
+
 .gallery-cell.is-selected img {
   transform: scale(0.8);
   filter: grayscale(0) blur(0);
@@ -296,6 +301,7 @@ footer svg{
 
 footer ul li:first-child{
   text-transform:uppercase;
+  font-weight:bold;
 }
 
 .social-box{
@@ -311,3 +317,35 @@ footer ul li:first-child{
   left:0;
   bottom:-10px;
 }
+
+@media (min-width: 548px) {
+  .gallery-cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 769px), print{
+  .trips .square{
+    flex-direction: column;
+    height:33vw;
+  }
+
+  .select select{
+    max-width:none;
+    width:19vw;
+  }
+
+  .form button {
+    width: 10vw;
+  }
+
+  .six{
+    grid-template-columns:repeat(6, 1fr);
+  }
+}
+
+@media screen and (min-width: 1000px), print{
+  .columns:not(.is-desktop) {
+      display: flex;
+  }
+  }

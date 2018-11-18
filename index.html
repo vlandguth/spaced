@@ -23,6 +23,12 @@
                 <span aria-hidden="true"></span>
               </a>
             </div>
+            <div class="navbar-menu navbar-end">
+                    <a href="#book" class="navbar-item">Booking</a>
+                    <a href="#packages" class="navbar-item">Packages</a>
+                    <a href="#amentities" class="navbar-item">Amentities</a>
+                    <a href="#social" class="navbar-item">Reviews</a>
+                  </div>
           </nav>
     </header>
 
@@ -42,7 +48,8 @@
              </div>
             </section>
 
-            <section class="form columns">
+            <div class="center-wrap" id="book">
+            <section class="form columns level-item">
                     <div class="control column">
                       <label class="label">To</label>
                       <div class="select">
@@ -96,16 +103,21 @@
                         </div>
                       </div>
                     <div class="column control next">
-                        <button class="button is-primary">Submit</button>
+                        <button class="button is-primary">
+                            <svg viewBox="0 0 53 32" width="53px" height="32px">
+                                <path fill="#FFF" fill-rule="evenodd" d="M29 20H.9807692v-7H29V0l24 16-24 16V20z"/>
+                            </svg>
+                        </button>
                     </div>
                   </section>
+                  </div>
 
 
-    <figure class="level-item">
+    <figure class="level-item" id="packages">
     <img class="star" src="img/star.png" alt="star">
     </figure>
     <h2>Travel Packages</h2>   
-    <section class="columns trips">
+    <section class="columns trips" >
         <div class="column square moon">
         <div class="columns text">
             <div class="column left">
@@ -144,12 +156,12 @@
         </div>
     </section>
 
-    <figure class="level-item">
+    <figure class="level-item" id="amentities">
             <img class="star" src="img/star.png" alt="star">
     </figure>
     <h2>Amentities</h2>
 
-    <section class="columns amentities">
+    <section class="columns amentities" >
             <div class="column">
               
           <svg class="line-icon" width="74px" height="55px" viewBox="0 0 74 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -197,24 +209,23 @@
             
           </section>
 
-          <figure class="level-item">
+          <figure class="level-item" id="social">
                 <img class="star" src="img/star.png" alt="star">
         </figure>
 
         <h2>Satisfied SPACED Travelers</h2>
         <h3 class="social-caption">Social Media Posts from Happy Customers</h3>
 
-          <section class="columns six is-gapless ">
-                <div class="column social-box is-one-third-mobile"><img src="img/window.png" alt=""><h3>Our Honeymoon... On the MOON!!</h3></div>
-                <div class="column social-box is-one-third-mobile"><img src="img/sat.png" alt=""><h3>Exploration to a Whole New Level</h3></div>
-                <div class="column social-box is-one-third-mobile"><img src="img/spaceman.png" alt=""><h3>The Best Selfie I Ever Took!</h3></div>
-                <div class="column social-box is-one-third-mobile"><img src="img/tree.png" alt=""><h3>Amazing Sights, Like Never Before</h3></div>
-                <div class="column social-box is-one-third-mobile"><img src="img/window.png" alt=""><h3>New and Exciting Family Vacation</h3></div>
-                <div class="column social-box is-one-third-mobile"><img src="img/spaceguy.png" alt=""><h3>My Journey, Floating Through Space</h3></div>
-              
+          <section class="columns six is-gapless" >
+                <div class="column social-box "><img src="img/window.png" alt=""><h3>Our Honeymoon... On the MOON!!</h3></div>
+                <div class="column social-box "><img src="img/sat.png" alt=""><h3>Exploration to a Whole New Level</h3></div>
+                <div class="column social-box "><img src="img/spaceman.png" alt=""><h3>The Best Selfie I Ever Took!</h3></div>
+                <div class="column social-box "><img src="img/tree.png" alt=""><h3>Amazing Sights, Like Never Before</h3></div>
+                <div class="column social-box "><img src="img/hall.png" alt=""><h3>New and Exciting Family Vacation</h3></div>
+                <div class="column social-box "><img src="img/spaceguy.png" alt=""><h3>My Journey, Floating Through Space</h3></div> 
               </section>
           
-          <section class="email">
+          <section class="email" id="email">
             <figure class="level-item">
             <img class="star" src="img/star.png" alt="star">
             </figure>
@@ -226,7 +237,9 @@
                 </p>
                 <p class="control">
                   <a class="button is-primary">
-                    Submit
+                    <svg viewBox="0 0 53 32" width="53px" height="32px">
+                        <path fill="#FFF" fill-rule="evenodd" d="M29 20H.9807692v-7H29V0l24 16-24 16V20z"/>
+                    </svg>
                   </a>
                 </p>
               </div>
@@ -238,9 +251,10 @@
             <div class="column">
                 <ul>
                     <li>Sitemap</li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Booking</a></li>
-                    <li><a href="">FAQ</a></li>
+                    <li><a href="#book">Booking</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#amentities">Amentities</a></li>
+                    <li><a href="#social">Reviews</a></li>
                 </ul>
             </div>
             <div class="column">
