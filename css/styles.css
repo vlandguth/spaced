@@ -10,6 +10,8 @@ body{
   background-image: url(../img/stars-4.png);
   background-size: 50%;
   background-repeat:repeat;
+  width:100vw;
+  overflow:hidden;
 }
 
 .select select{
